@@ -11,7 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 40px;
 }
 
 
@@ -34,7 +33,7 @@ div#txt1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 800;
     color: #000;
     background-color: #FFF;
@@ -88,7 +87,7 @@ div#txt1 .day {
 
 div.clock .m {
     position: absolute;
-    bottom: 125px;
+    bottom: 123px;
     left: 126px;
     width: 4px;
     height: 75px;
@@ -106,7 +105,7 @@ div#txt1 .month {
 
 div.clock .h {
     position: absolute;
-    bottom: 125px;
+    bottom: 127px;
     left: 122px;
     width: 4px;
     height: 60px;
