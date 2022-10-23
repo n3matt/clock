@@ -5,28 +5,29 @@
 }
 
 body {
-    background-color: #333;
+    background-color: #444;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    position: relative;
 }
 
 
 .clock11 {
     position: absolute;
-    bottom: 26.51%;
+    width: 200px;
+    height: 200px;
+    top: 55.2%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 150px;
-    height: 150px;
+    
     border-radius: 50%;
 }
 
 img {
     width: 300px;
-    height: 450px;
+    height: 435px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,8 +64,8 @@ div.clock {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 
 }
@@ -74,8 +75,9 @@ div.clock .s {
     background-color: dodgerblue;
     position: absolute;
     background-size: cover;
-    bottom: 125px;
-    left: 125px;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 2px;
     height: 95px;
     z-index: 3;
@@ -92,8 +94,10 @@ div#txt1 .day {
 
 div.clock .m {
     position: absolute;
-    bottom: 123px;
-    left: 126px;
+    
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 4px;
     height: 75px;
     background-color: mediumseagreen;
@@ -110,8 +114,9 @@ div#txt1 .month {
 
 div.clock .h {
     position: absolute;
-    bottom: 127px;
-    left: 122px;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 4px;
     height: 60px;
     background-color: tomato;
