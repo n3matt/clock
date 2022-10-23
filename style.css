@@ -15,15 +15,20 @@ body {
 
 
 .clock11 {
-    position: relative;
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    bottom: 26.51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 img {
     width: 300px;
+    height: 450px;
     position: absolute;
-    top: 49%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -55,7 +60,7 @@ div#txt {
 
 div.clock {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 250px;
