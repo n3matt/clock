@@ -16,13 +16,12 @@ body {
 
 .clock11 {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 4px;
+    height: 220px;
     top: calc(50% + 42.5px);
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    border-radius: 50%;
+
 }
 
 img:first-of-type {
@@ -37,13 +36,12 @@ img:first-of-type {
 
 img:last-of-type {
     position: absolute;
-    top: 55.1%;
+    top: calc(50% + 43px);
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 260px;
-    height: 260px;
-    z-index: -1;
-}
+    width: 250px;
+    height: 250px;
+    z-index: -1;}
 
 
 
